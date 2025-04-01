@@ -1,86 +1,182 @@
-<div align="center">
-  <h1>🚀 Backend Developer</h1>
-  <div>
-    <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js">
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-    <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" alt="Java">
-    <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL">
-    <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB">
-    <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
-    <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS">
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  .thunderfit-header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .thunderfit-logo {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #f39c12;
+  }
+  
+  .section {
+    background-color: #ecf0f1;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 5px solid #3498db;
+    border-radius: 3px;
+  }
+  
+  .feature-card {
+    background-color: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .feature-title {
+    color: #3498db;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .authors {
+    font-style: italic;
+    text-align: right;
+    margin-top: 30px;
+    color: #7f8c8d;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+  }
+  
+  th {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+</style>
+</head>
+<body>
+
+<div class="thunderfit-header">
+  <div class="thunderfit-logo">THUNDERFIT</div>
+  <div>Sistema de Gestão para Academias</div>
+</div>
+
+<div class="section">
+  <h2>📌 Objetivo</h2>
+  <p>O THUNDERFIT é uma solução tecnológica completa desenvolvida para modernizar e otimizar a administração de academias de pequeno e médio porte. Nosso sistema integra todas as operações essenciais em uma única plataforma intuitiva.</p>
+</div>
+
+<div class="section">
+  <h2>🚀 Funcionalidades Principais</h2>
+  
+  <div class="feature-card">
+    <div class="feature-title">👥 Cadastro de Usuários</div>
+    <p>Registro completo de alunos, instrutores e administradores com todas as informações necessárias, incluindo dados pessoais e planos de assinatura.</p>
+  </div>
+  
+  <div class="feature-card">
+    <div class="feature-title">💳 Gestão de Planos</div>
+    <p>Criação e gerenciamento flexível de diferentes tipos de planos (mensal, trimestral, anual) com cálculo automático de valores.</p>
+  </div>
+  
+  <div class="feature-card">
+    <div class="feature-title">🏋️ Controle de Aulas</div>
+    <p>Agendamento inteligente de aulas e treinos personalizados, com registro de presença e acompanhamento de produtividade.</p>
+  </div>
+  
+  <div class="feature-card">
+    <div class="feature-title">🔧 Gestão de Equipamentos</div>
+    <p>Monitoramento completo do uso e manutenção dos equipamentos, com histórico detalhado de reparos.</p>
+  </div>
+  
+  <div class="feature-card">
+    <div class="feature-title">📊 Relatórios e Estatísticas</div>
+    <p>Geração automática de relatórios completos sobre frequência, receitas, despesas e gráficos de desempenho.</p>
+  </div>
+  
+  <div class="feature-card">
+    <div class="feature-title">💰 Sistema de Pagamentos</div>
+    <p>Integração com múltiplos métodos de pagamento (cartão, boleto) e emissão automática de recibos.</p>
+  </div>
+  
+  <div class="feature-card">
+    <div class="feature-title">❤️ Perfil de Saúde</div>
+    <p>Acompanhamento completo da evolução física dos alunos (peso, altura, IMC) e metas pessoais.</p>
+  </div>
+  
+  <div class="feature-card">
+    <div class="feature-title">🍎 Sistema de Nutrição</div>
+    <p>Planejamento de dietas personalizadas e registro do consumo calórico diário.</p>
   </div>
 </div>
 
----
-
-## 📌 About Me
-<p align="justify">
-Backend specialist focused on high-performance systems, API development, and database optimization. 
-Expertise in building scalable microservices and cloud-native applications with clean architecture.
-</p>
-
-## 🛠 Tech Stack
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin: 20px 0;">
-  <div style="background: #f8f9fa; padding: 15px; border-radius: 8px;">
-    <h4>🔹 Core</h4>
-    <ul style="margin-top: 5px;">
-      <li>Node.js/Express</li>
-      <li>Python/Django</li>
-      <li>Java/Spring</li>
-      <li>REST/GraphQL</li>
-    </ul>
-  </div>
-  <div style="background: #f8f9fa; padding: 15px; border-radius: 8px;">
-    <h4>🔹 Data</h4>
-    <ul style="margin-top: 5px;">
-      <li>PostgreSQL</li>
-      <li>MongoDB</li>
-      <li>Redis</li>
-      <li>Elasticsearch</li>
-    </ul>
-  </div>
-  <div style="background: #f8f9fa; padding: 15px; border-radius: 8px;">
-    <h4>🔹 DevOps</h4>
-    <ul style="margin-top: 5px;">
-      <li>Docker</li>
-      <li>Kubernetes</li>
-      <li>AWS/GCP</li>
-      <li>CI/CD Pipelines</li>
-    </ul>
-  </div>
+<div class="section">
+  <h2>📋 Tabela de Funcionalidades</h2>
+  <table>
+    <tr>
+      <th>Módulo</th>
+      <th>Recursos</th>
+      <th>Benefícios</th>
+    </tr>
+    <tr>
+      <td>Gestão de Alunos</td>
+      <td>Cadastro completo, histórico de treinos, evolução física</td>
+      <td>Controle total sobre os membros da academia</td>
+    </tr>
+    <tr>
+      <td>Financeiro</td>
+      <td>Pagamentos, mensalidades, relatórios financeiros</td>
+      <td>Redução de inadimplência e melhor gestão</td>
+    </tr>
+    <tr>
+      <td>Treinamento</td>
+      <td>Planos personalizados, acompanhamento de resultados</td>
+      <td>Melhoria no desempenho dos alunos</td>
+    </tr>
+    <tr>
+      <td>Operacional</td>
+      <td>Controle de equipamentos, agendamento de aulas</td>
+      <td>Otimização dos recursos da academia</td>
+    </tr>
+  </table>
 </div>
 
-## 📈 GitHub Stats
-<div align="center" style="margin: 20px 0;">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=SEU_USERNAME&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="Stats">
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SEU_USERNAME&layout=compact&theme=radical&hide_border=true" alt="Langs">
-  <img height="160" src="https://github-readme-streak-stats.herokuapp.com/?user=SEU_USERNAME&theme=radical&hide_border=true" alt="Streak">
+<div class="section">
+  <h2>🛠️ Tecnologias Utilizadas</h2>
+  <ul>
+    <li><strong>Backend:</strong> Java com Spring Boot</li>
+    <li><strong>Banco de Dados:</strong> MongoDB</li>
+    <li><strong>Frontend:</strong> JavaFX</li>
+    <li><strong>Segurança:</strong> Autenticação JWT e criptografia AES-256</li>
+  </ul>
 </div>
 
-## 🏆 Recent Projects
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 15px;">
-  <div style="border: 1px solid #e1e4e8; border-radius: 6px; padding: 15px;">
-    <h3>📦 Microservice API</h3>
-    <p>Scalable e-commerce backend with Node.js and MongoDB</p>
-    <a href="#"><img src="https://img.shields.io/badge/Code-View%20Repo-blue?style=flat-square"></a>
-  </div>
-  <div style="border: 1px solid #e1e4e8; border-radius: 6px; padding: 15px;">
-    <h3>🔐 Auth Service</h3>
-    <p>JWT authentication system with Redis caching</p>
-    <a href="#"><img src="https://img.shields.io/badge/Code-View%20Repo-blue?style=flat-square"></a>
-  </div>
+<div class="authors">
+  <p>Desenvolvido por:</p>
+  <p>Angelo Gabriel de Brito Ferreira</p>
+  <p>Ysabelle Lorena Pessoa Gouveia</p>
+  <p>Cicero Daniel Barbosa dos Santos</p>
+  <p>Victor Hugo Dedes Dantas</p>
+  <p>Yuri Felix Ribeiro da Silva</p>
+  <p>Universidade Federal do Cariri - 2025</p>
 </div>
 
-## 📫 Contact
-<div align="center" style="margin-top: 30px;">
-  <a href="mailto:you@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
-  <a href="https://linkedin.com/in/yourprofile"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-  <a href="https://twitter.com/yourhandle"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"></a>
-</div>
-
----
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=SEU_USERNAME&label=Profile%20views&color=0e75b6&style=flat" alt="Views">
-  <p>⚡ Powered by clean code and caffeine</p>
-</div>
+</body>
+</html>
