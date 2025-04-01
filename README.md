@@ -15,8 +15,7 @@ Sistema desenvolvido em Java para gerenciamento financeiro pessoal com:
 
 ✅ **Programação Orientada a Objetos**  
 ✅ **Arquitetura em Camadas**  
-✅ **Princípios SOLID**  
-✅ **Padrões de Projeto**
+
 
 ---
 
