@@ -63,7 +63,6 @@ O THUNDERFIT é uma solução tecnológica completa desenvolvida para modernizar
 - **Backend:** Java com Spring Boot
 - **Banco de Dados:** MongoDB
 - **Frontend:** JavaFX
-- **Segurança:** Autenticação JWT e criptografia AES-256
 
 <div class="authors" style="font-style: italic; text-align: right; margin-top: 30px; color: #7f8c8d;">
   <p>Desenvolvido por:</p>
