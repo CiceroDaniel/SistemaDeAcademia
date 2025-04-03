@@ -3,19 +3,28 @@ package model;
 public class Endereco {
 	//**----------------VARIÀVEIS-------------------**//
 	private String rua;
-	private String numeroCasa;
-	private String cep;
+	private String numero;
 	private String cidade;
-	private String estado;
 	
 	//**--------------CONSTRUTOR----------------------**//
-	public Endereco(String rua, String numeroCasa, String cep, String cidade, String estado) {
+	public Endereco(String rua, String numero, String cep, String cidade, String estado) {
 		this.rua = rua;
-		this.numeroCasa = numeroCasa;
-		this.cep =cep;
+		this.numero = numero;
 		this.cidade = cidade;
-		this.estado = estado;
 	}
+	
+	public String toFileString1() {
+		return String.join("|", rua, numero, cidade);
+	}
+	
+	public Endereco fromFileString1(String str) {
+		String[] partes = str.split("\\|");
+		this.rua = partes[0];
+		this.numero = partes[1];
+		this.cidade = partes[2];
+		return this;
+	}
+	
 
 	
 	//**---------------GETTERS E SETTERS------------------**//
@@ -28,19 +37,11 @@ public class Endereco {
 	}
 	
 	public String getNumeroCasa() {
-		return numeroCasa;
+		return numero;
 	}
 	
 	public void setNumeroCasa(String numeroCasa) {
-		this.numeroCasa = numeroCasa;
-	}
-	
-	public String getCep() {
-		return cep;
-	}
-	
-	public void setCep(String cep) {
-		this.cep = cep;
+		this.numero = numeroCasa;
 	}
 	
 	public String getCidade() {
@@ -50,14 +51,19 @@ public class Endereco {
 	public void setCidade(String cidade) {
 		this.cidade = cidade;
 	}
-	
-	public String getEstado() {
-		return estado;
+
+//olhar essa parte
+	public CharSequence toFileString() {
+		// TODO Auto-generated method stub
+		return null;
 	}
-	
-	public void setEstado(String estado) {
-		this.estado = estado;
+
+	public Endereco fromFileString(String string) {
+		// TODO Auto-generated method stub
+		return null;
 	}
+
+
 
 	
 	
