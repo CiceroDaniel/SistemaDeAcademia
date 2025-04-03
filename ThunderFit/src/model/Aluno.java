@@ -14,12 +14,11 @@ public class Aluno extends Usuario{
 	private double peso;
 	private String objetivo;
 	private Plano plano;
-	private List<Avaliacaofisica> avaliacao = new ArrayList<>();
 	private List<Pagamento> pagamentos = new ArrayList<>();
 	@Override
 	public String gerarCredenciais() {
 		// TODO Auto-generated method stub
-		return null;
+		return "Nome:" +nome+"\nCPF:" +cpf+"\nEmail:" +email+"\nTelefone:" +telefone;
 	}
 	@Override
 	public boolean temAcessoAdmin() {
