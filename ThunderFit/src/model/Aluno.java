@@ -23,7 +23,7 @@ public class Aluno extends Usuario{
 	}
 	@Override
 	public boolean temAcessoAdmin() {
-		// TODO Auto-generated method stub
+		// TODO Auto-generated method stub ggas
 		return false;
 	}
 	
