@@ -74,7 +74,7 @@
 <div class="authors" style="font-style: italic; text-align: right; margin-top: 40px; color: #7f8c8d; border-top: 1px solid #eee; padding-top: 20px;">
   <p style="margin: 5px 0;">Desenvolvido por:</p>
   <div class="authors" style="font-style: italic; text-align: right; margin-top: 30px; color: #7f8c8d;">
-  <p>Angelo Gabriel de Brito Ferreira</p>
+  
   <p>Ysabelle Lorena Pessoa Gouveia</p>
   <p>Cicero Daniel Barbosa dos Santos</p>
   <p>Victor Hugo Dedes Dantas</p>
