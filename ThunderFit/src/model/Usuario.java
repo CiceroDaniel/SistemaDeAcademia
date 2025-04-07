@@ -1,8 +1,8 @@
 package model;
 
-import java.time.format.DateTimeFormatter;
+/*import java.time.format.DateTimeFormatter;
 import java.util.Objects;
-import java.time.LocalDate;
+import java.time.LocalDate;*/
 
 public abstract class Usuario{
 	//**----------------VARIÀVEIS-------------------**//
@@ -11,10 +11,10 @@ public abstract class Usuario{
 		protected String cpf;
 		protected String email;
 		protected String telefone;
-		protected LocalDate dataDeNascimento;
+		//protected LocalDate dataDeNascimento;
 		protected Endereco endereco;
 		protected boolean status;
-		protected LocalDate dataDeCadastro;
+		//protected LocalDate dataDeCadastro;
 		
 		
 		//**--------------CONSTRUTOR----------------------**//
@@ -23,7 +23,7 @@ public abstract class Usuario{
 			this.cpf = cpf;
 			this.email = email;
 			this.telefone = telefone;
-			this.dataDeCadastro = LocalDate.now();
+			//this.dataDeCadastro = LocalDate.now();
 			this.status = true;
 		}
 		
@@ -63,44 +63,12 @@ public abstract class Usuario{
 			}
 		}
 		
-		public int calcularIdade() {
+		/*public int calcularIdade() {
 			if(dataDeNascimento == null) {
 				System.out.println("data de nascimento nao foi definida");
 			}
 			return LocalDate.now().getYear() - dataDeNascimento.getYear();
-		}
-		//**------------------ARQUIVO-------------------------**//
-		public String toFileString() {
-			return String.join(";",
-					this.id,
-					this.nome,
-					this.cpf,
-					this.email,
-					this.telefone,
-					this.dataDeNascimento != null ?  this.dataDeNascimento.format(DateTimeFormatter.ISO_DATE) : "",
-					this.endereco != null ? this.endereco.toFileString() : "",
-					String.valueOf(this.status),
-					this.dataDeCadastro.format(DateTimeFormatter.ISO_DATE)
-			);				
-		}
-		
-		public void fromFileString(String fileString) {
-			String[] partes = fileString.split(";");
-			this.id = partes[0];
-			this.nome = partes[1];
-			this.cpf = partes[2];
-			this.email = partes[3];
-			this.telefone = partes[4];
-			this.dataDeNascimento = partes[5].isEmpty() ? null : LocalDate.parse(partes[5]);
-			
-			//nao sei se essa parte ta funcionando
-			if (partes[6].isEmpty())
-				this.endereco = null;
-			else
-				this.endereco = new Endereco(fileString, fileString, fileString, fileString, fileString).fromFileString(partes[6]);
-			this.status = Boolean.parseBoolean(partes[7]);
-			this.dataDeCadastro = LocalDate.parse(partes[8]);
-		}
+		}*/
 		
 		
 		//**---------------GETTERS E SETTERS------------------**//
